@@ -28,7 +28,7 @@
   -->
   <testsuites>
     <testsuite name="full">
-      <directory>tests</directory>
+      <directory>../tests</directory>
     </testsuite>
   </testsuites>
 
@@ -39,7 +39,7 @@
   -->
   <filter>
     <whitelist>
-      <directory>src</directory>
+      <directory>../src</directory>
     </whitelist>
   </filter>
 
@@ -49,7 +49,7 @@
     #logging
   -->
   <logging>
-    <log type="coverage-clover" target="build/logs/clover.xml"/>
+    <log type="coverage-clover" target="clover.xml"/>
   </logging>
 
 </phpunit>
