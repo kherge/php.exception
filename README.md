@@ -37,7 +37,7 @@ $exception = new MyException('Example %s.', 'message', $previous);
 Requirements
 ------------
 
-- PHP 7.0 or greater
+- PHP 7.1 or greater
 
 Installation
 ------------
