@@ -32,15 +32,4 @@
     </testsuite>
   </testsuites>
 
-  <!--
-    Code coverage filtering.
-
-    #whitelisting-files-for-code-coverage
-  -->
-  <filter>
-    <whitelist>
-      <directory>src</directory>
-    </whitelist>
-  </filter>
-
 </phpunit>
