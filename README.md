@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/kherge/php.exception.svg?branch=master)](https://travis-ci.org/kherge/php.exception)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=php.exception&metric=alert_status)](https://sonarcloud.io/dashboard?id=php.exception)
 
 Exception
 =========
