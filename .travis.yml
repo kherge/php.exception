@@ -1,0 +1,33 @@
+after_success:
+    - composer require satooshi/php-coveralls
+    - travis_retry php vendor/bin/coveralls
+
+branches:
+    only:
+        - master
+
+git:
+    depth: 1
+
+install:
+    - composer install
+    - mkdir -p build/logs
+
+language: php
+
+matrix:
+
+    allow_failures:
+        - php: nightly
+
+    fast_finish: true
+
+    include:
+        - php: 7.0
+        - php: 7.1
+        - php: 7.2
+        - php: nightly
+
+script: phpunit --configuration .travis/phpunit.xml --coverage-clover build/logs/clover.xml
+
+sudo: false
