@@ -6,7 +6,7 @@
 -->
 <phpunit
   backupGlobals="false"
-  bootstrap="vendor/autoload.php"
+  bootstrap="../vendor/autoload.php"
   colors="true"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/7.0/phpunit.xsd"
